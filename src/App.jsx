@@ -4,6 +4,8 @@ import Home from './pages/Home'
 import SurahExperience from './pages/SurahExperience'
 import Bookmarks from './pages/Bookmarks'
 import Collections from './pages/Collections'
+import Privacy from './pages/Privacy'
+import Terms from './pages/Terms'
 import AppShell from './components/layout/AppShell'
 
 function App() {
@@ -14,6 +16,8 @@ function App() {
         <Route path="/surah/:id" element={<SurahExperience />} />
         <Route path="/bookmarks" element={<Bookmarks />} />
         <Route path="/collections" element={<Collections />} />
+        <Route path="/privacy" element={<Privacy />} />
+        <Route path="/terms" element={<Terms />} />
       </Routes>
     </AppShell>
   )

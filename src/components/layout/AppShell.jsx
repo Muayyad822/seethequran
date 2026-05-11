@@ -1,5 +1,6 @@
 import React from 'react';
 import NavBar from './NavBar';
+import Footer from './Footer';
 
 const AppShell = ({ children }) => {
   return (
@@ -8,6 +9,7 @@ const AppShell = ({ children }) => {
       <main className="flex-1 relative overflow-hidden">
         {children}
       </main>
+      <Footer />
     </div>
   );
 };

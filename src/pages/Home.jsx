@@ -14,7 +14,7 @@ const Home = () => {
         animate={{ opacity: 1, y: 0 }}
         className="text-center mb-16 max-w-2xl flex flex-col items-center"
       >
-        <img src="/see_the_quran_logo.svg" alt="See the Quran" className="w-44 h-auto" /> 
+        <img src="/see_the_quran_logo.svg" alt="See the Quran" className="w-44 h-auto" />
         <p className="text-xl text-muted font-display italic">
           Experience the Quran, not just read it.
         </p>
