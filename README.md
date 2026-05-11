@@ -1,9 +1,5 @@
 # See The Quran ✨
 
-![See The Quran Hero](C:\Users\USER\.gemini\antigravity\brain\4b1fadaa-2e85-4bbc-8a2c-03a6037532bb\see_the_quran_hero_1778523010312.png)
-
-> **"A cinematic, immersive journey through the heart of Juz Amma."**
-
 **See The Quran** is a premium web application built for the **Quran Foundation Hackathon 2026**. It transforms the experience of reading and listening to the Quran into a deeply contemplative and cinematic journey. By combining high-fidelity audio, immersive visual atmospheres, and real-time tafsir, the app aims to foster a deeper emotional connection with the Divine word.
 
 ## 🌌 The Experience
