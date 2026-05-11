@@ -12,11 +12,9 @@ const Home = () => {
       <motion.div 
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
-        className="text-center mb-16 max-w-2xl"
+        className="text-center mb-16 max-w-2xl flex flex-col items-center"
       >
-        <h1 className="text-6xl md:text-7xl font-display font-bold mb-4 bg-gradient-to-b from-ivory to-gold bg-clip-text text-transparent animate-shimmer">
-          See the Quran
-        </h1>
+        <img src="/see_the_quran_logo.svg" alt="See the Quran" className="w-44 h-auto" /> 
         <p className="text-xl text-muted font-display italic">
           Experience the Quran, not just read it.
         </p>

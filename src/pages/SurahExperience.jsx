@@ -44,6 +44,20 @@ const SurahExperience = () => {
 
   return (
     <div className="fixed inset-0 bg-void overflow-hidden">
+      {/* Exit Button */}
+      <motion.button
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        whileHover={{ scale: 1.1 }}
+        onClick={() => navigate('/')}
+        className="fixed top-6 left-6 z-50 group flex items-center gap-3"
+      >
+        <div className="w-10 h-10 rounded-full glass flex items-center justify-center border border-white/10 group-hover:border-gold/50 transition-colors">
+          <img src="/see_the_quran_app_icon.svg" alt="Home" className="w-6 h-6" />
+        </div>
+        <span className="text-xs uppercase tracking-[0.2em] text-white/40 group-hover:text-gold transition-colors font-medium">Exit Experience</span>
+      </motion.button>
+
       <AnimatePresence mode="wait">
         <SceneRenderer 
           key={`${state.currentSurah}-${state.currentVerseIndex}`}

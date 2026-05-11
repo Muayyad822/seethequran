@@ -13,7 +13,7 @@ const NavBar = () => {
   return (
     <nav className="fixed top-0 left-0 w-full z-50 glass-dark py-4 px-6 flex justify-between items-center">
       <Link to="/" className="flex items-center gap-2">
-        <span className="text-gold text-2xl font-display font-bold tracking-tight italic">See the Quran</span>
+        <img src="/see_the_quran_logo.svg" alt="See the Quran" className="h-10 w-auto" />
       </Link>
 
       <div className="flex items-center gap-8">

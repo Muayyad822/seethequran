@@ -1,0 +1,13 @@
+<svg width="80" height="80" viewBox="300 60 80 80" role="img" xmlns="http://www.w3.org/2000/svg">
+  <title>See the Quran — icon variants</title>
+  <desc>Three size variants of the app icon: large, medium, small, showing how it scales.</desc>
+
+  <!-- MEDIUM 80px -->
+  <circle cx="340" cy="100" r="40" fill="#07070d"/>
+  <circle cx="340" cy="100" r="40" fill="none" stroke="#c9a84c" stroke-width="0.6" opacity="0.4"/>
+  <circle cx="340" cy="100" r="22" fill="#c9a84c" opacity="0.92"/>
+  <circle cx="349" cy="96" r="20" fill="#07070d"/>
+  <line x1="340" y1="55" x2="340" y2="73" stroke="#c9a84c" stroke-width="0.9" stroke-linecap="round" opacity="0.9"/>
+  <circle cx="340" cy="52" r="1.4" fill="#c9a84c" opacity="0.8"/>
+
+</svg>
