@@ -1,0 +1,174 @@
+{
+  "surahNumber": 99,
+  "surahName": "Az-Zalzalah",
+  "scenes": [
+    {
+      "verseNumber": 1,
+      "verseKey": "99:1",
+      "emotion": "dread",
+      "atmosphere": "dark",
+      "visualElements": ["ground_crack", "dust_particles", "shake_motion"],
+      "backgroundGradient": ["#0a0a0f", "#1a0a00"],
+      "particleConfig": {
+        "type": "dust",
+        "count": 120,
+        "color": "#8B6914",
+        "speed": "fast",
+        "direction": "upward"
+      },
+      "motionType": "shake",
+      "ambientColor": "#3d1a00",
+      "glowColor": "#ff6b00",
+      "transitionDuration": 1200,
+      "reflectionPrompt": "What would you want the earth to testify about you?",
+      "tafsirHighlight": "The earth will shake with its full, appointed shaking — a shaking unlike any earthquake known to humanity."
+    },
+    {
+      "verseNumber": 2,
+      "verseKey": "99:2",
+      "emotion": "dread",
+      "atmosphere": "heavy",
+      "visualElements": ["earth_rising", "deep_tremor"],
+      "backgroundGradient": ["#1a0a00", "#2a0a00"],
+      "particleConfig": {
+        "type": "debris",
+        "count": 80,
+        "color": "#4a2a00",
+        "speed": "medium",
+        "direction": "random"
+      },
+      "motionType": "tremor",
+      "ambientColor": "#2a0a00",
+      "glowColor": "#ff4500",
+      "transitionDuration": 1000,
+      "reflectionPrompt": "What 'burdens' has the earth kept hidden from us?",
+      "tafsirHighlight": "The earth will expel all its contents — the dead from their graves and the treasures within its depths."
+    },
+    {
+      "verseNumber": 3,
+      "verseKey": "99:3",
+      "emotion": "awe",
+      "atmosphere": "confusing",
+      "visualElements": ["human_figure_silhouette", "distorted_horizon"],
+      "backgroundGradient": ["#2a0a00", "#1a1a2e"],
+      "particleConfig": {
+        "type": "distorted",
+        "count": 60,
+        "color": "#ffffff",
+        "speed": "slow",
+        "direction": "outward"
+      },
+      "motionType": "distort",
+      "ambientColor": "#1a1a2e",
+      "glowColor": "#ffffff",
+      "transitionDuration": 1500,
+      "reflectionPrompt": "How would you feel seeing the laws of nature collapse?",
+      "tafsirHighlight": "Mankind will cry out in absolute bewilderment at the unprecedented state of the world."
+    },
+    {
+      "verseNumber": 4,
+      "verseKey": "99:4",
+      "emotion": "solemn",
+      "atmosphere": "vocal",
+      "visualElements": ["pulse_waves", "earth_textures"],
+      "backgroundGradient": ["#1a1a2e", "#0a0a0f"],
+      "particleConfig": {
+        "type": "pulses",
+        "count": 40,
+        "color": "#8a8a9a",
+        "speed": "slow",
+        "direction": "upward"
+      },
+      "motionType": "pulse",
+      "ambientColor": "#0a0a0f",
+      "glowColor": "#c9a84c",
+      "transitionDuration": 2000,
+      "reflectionPrompt": "Is there a place where you have done good that you want to speak for you?",
+      "tafsirHighlight": "The earth itself will be given the power to speak, bearing witness to every deed performed upon its surface."
+    },
+    {
+      "verseNumber": 5,
+      "verseKey": "99:5",
+      "emotion": "awe",
+      "atmosphere": "divine",
+      "visualElements": ["light_descending", "heavenly_glow"],
+      "backgroundGradient": ["#0a0a0f", "#1a1a2e"],
+      "particleConfig": {
+        "type": "light_beams",
+        "count": 100,
+        "color": "#f0ead6",
+        "speed": "slow",
+        "direction": "downward"
+      },
+      "motionType": "descend",
+      "ambientColor": "#1a1a2e",
+      "glowColor": "#f0ead6",
+      "transitionDuration": 1800,
+      "reflectionPrompt": "How immense is the Command of your Lord?",
+      "tafsirHighlight": "The earth speaks because your Lord will have commanded it to do so — absolute submission to the Divine."
+    },
+    {
+      "verseNumber": 6,
+      "verseKey": "99:6",
+      "emotion": "solemn",
+      "atmosphere": "gathering",
+      "visualElements": ["crowd_shadows", "approaching_horizon"],
+      "backgroundGradient": ["#1a1a2e", "#050508"],
+      "particleConfig": {
+        "type": "fog",
+        "count": 150,
+        "color": "#1a1a2e",
+        "speed": "very_slow",
+        "direction": "forward"
+      },
+      "motionType": "drift",
+      "ambientColor": "#050508",
+      "glowColor": "#8a8a9a",
+      "transitionDuration": 2500,
+      "reflectionPrompt": "Which of your deeds are you most eager to see?",
+      "tafsirHighlight": "On that Day, people will emerge in separate groups to be shown the reality of their actions."
+    },
+    {
+      "verseNumber": 7,
+      "verseKey": "99:7",
+      "emotion": "hope",
+      "atmosphere": "precise",
+      "visualElements": ["atom_scale_spark", "focus_glow"],
+      "backgroundGradient": ["#050508", "#0a2a0a"],
+      "particleConfig": {
+        "type": "spark",
+        "count": 1,
+        "color": "#00ff00",
+        "speed": "still",
+        "direction": "center"
+      },
+      "motionType": "focus",
+      "ambientColor": "#0a2a0a",
+      "glowColor": "#00ff00",
+      "transitionDuration": 800,
+      "reflectionPrompt": "What is one 'atom's weight' of good you can do today?",
+      "tafsirHighlight": "No good deed, however infinitesimal, is lost. Every 'atom's weight' of righteousness will be witnessed."
+    },
+    {
+      "verseNumber": 8,
+      "verseKey": "99:8",
+      "emotion": "warning",
+      "atmosphere": "precise",
+      "visualElements": ["atom_scale_spark", "focus_glow_red"],
+      "backgroundGradient": ["#0a2a0a", "#2a0a0a"],
+      "particleConfig": {
+        "type": "spark",
+        "count": 1,
+        "color": "#ff0000",
+        "speed": "still",
+        "direction": "center"
+      },
+      "motionType": "focus",
+      "ambientColor": "#2a0a0a",
+      "glowColor": "#ff0000",
+      "transitionDuration": 800,
+      "reflectionPrompt": "What is one 'atom's weight' of harm you can avoid today?",
+      "tafsirHighlight": "The scale of Divine Justice is absolute. Even the smallest harm will be accounted for."
+    }
+  ]
+}

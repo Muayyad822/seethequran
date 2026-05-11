@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+:root {
+  --color-void: #050508;
+  --color-night: #0d0d14;
+  --color-dusk: #1a1a2e;
+  --color-gold: #c9a84c;
+  --color-gold-dim: #7a6130;
+  --color-ivory: #f0ead6;
+  --color-muted: #8a8a9a;
+  --color-glow-amber: #ff8c00;
+  --color-glow-blue: #4488ff;
+  --color-glow-teal: #00c9a7;
+}
+
+@layer base {
+  body {
+    @apply bg-[var(--color-void)] text-[var(--color-ivory)] antialiased selection:bg-[var(--color-gold-dim)] selection:text-[var(--color-ivory)];
+    font-family: 'Source Sans 3', sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Cormorant Garamond', serif;
+  }
+
+  .font-amiri {
+    font-family: 'Amiri', serif;
+  }
+}
+
+@layer components {
+  .glass {
+    @apply bg-white/5 backdrop-blur-md border border-white/10;
+  }
+  
+  .glass-dark {
+    @apply bg-black/40 backdrop-blur-xl border border-white/5;
+  }
+
+  .btn-primary {
+    @apply px-6 py-2 bg-[var(--color-gold)] text-[var(--color-void)] font-medium rounded-full transition-all hover:scale-105 active:scale-95 hover:shadow-[0_0_20px_rgba(201,168,76,0.3)];
+  }
+
+  .btn-secondary {
+    @apply px-6 py-2 border border-[var(--color-gold)] text-[var(--color-gold)] font-medium rounded-full transition-all hover:bg-[var(--color-gold)] hover:text-[var(--color-void)] active:scale-95;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-[var(--color-void)];
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-[var(--color-dusk)] rounded-full hover:bg-[var(--color-gold-dim)];
+}
+
+/* Hide scrollbar for immersive scenes */
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
